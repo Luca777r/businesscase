@@ -1,0 +1,37 @@
+body{
+    margin:0;
+}
+
+#lapin{
+    margin-right: 25%;
+}
+
+#txtsection,p{
+    margin-left: 22%;
+}
+
+#friandise{
+    margin-left: 25%;
+    margin-top: 50px;
+}
+
+#proddesc{
+    width: 50%;
+}
+
+.slideCustomWidth{
+    width:25%;
+}
+
+#avantages{
+    height: 400px;
+}
+
+@media only all and (max-width:576px){
+
+    .slideCustomWidth{
+        width:100%;
+    }
+    
+
+}
