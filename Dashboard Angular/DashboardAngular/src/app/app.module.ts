@@ -8,10 +8,22 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { PageConnexionComponent } from './Pages/page-connexion/page-connexion.component';
 import { PageDashBoardComponent } from './Pages/page-dash-board/page-dash-board.component';
 import { FormComponent } from './Pages/page-connexion/form/form.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
-  declarations: [AppComponent, PageConnexionComponent, PageDashBoardComponent, FormComponent],
-  imports: [BrowserModule, AppRoutingModule, BrowserAnimationsModule, NgbModule],
+  declarations: [
+    AppComponent,
+    PageConnexionComponent,
+    PageDashBoardComponent,
+    FormComponent,
+  ],
+  imports: [
+    BrowserModule,
+    AppRoutingModule,
+    BrowserAnimationsModule,
+    NgbModule,
+    FormsModule,
+  ],
   providers: [],
   bootstrap: [AppComponent],
 })

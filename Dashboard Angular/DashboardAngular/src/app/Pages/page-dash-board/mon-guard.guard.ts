@@ -6,12 +6,14 @@ import {
   UrlTree,
 } from '@angular/router';
 import { Observable } from 'rxjs';
+import { AuthServiceService } from 'src/app/auth-service.service';
 
 @Injectable({
   providedIn: 'root',
 })
 export class MonGuardGuard implements CanActivate {
+  constructor(private monServ: AuthServiceService) {}
   canActivate(): boolean {
-    return false;
+    return this.monServ.estCo;
   }
 }

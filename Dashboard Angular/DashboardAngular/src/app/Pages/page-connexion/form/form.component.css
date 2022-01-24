@@ -7,5 +7,9 @@
 }
 
 #marginTop {
-  margin-top: 10%;
+}
+
+#navbar {
+  height: 100px;
+  background-color: black;
 }
